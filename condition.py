@@ -1,2 +1,0 @@
-print ("condition")
-print ("edited")
