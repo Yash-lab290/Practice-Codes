@@ -1,4 +1,4 @@
-# Basic to do application
+# Basic to do application in Python
 def todo_list_app():
     # Initialize an empty list to store tasks
     tasks = []
