@@ -34,7 +34,7 @@ def todo_list_app():
                     print(f"{index + 1}. {task}")
                 try:
                     task_num = int(input("Enter the number of the task to remove: "))
-                    # Adjust from 1-based index (user input) to 0-based index (list)
+                    # Adjust from one -Base index (user input) to 0-based index (list)
                     if 0 < task_num <= len(tasks):
                         removed_task = tasks.pop(task_num - 1)
                         print(f"Task '{removed_task}' removed.")
