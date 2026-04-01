@@ -1,4 +1,5 @@
 #Program to sort a sequence using insertion sort.
+#aList = input("Enter numbers saperated by ','"), This line is not correct
 aList = [15,6,13,22,3,52,2]
 print ("Original list is : ", aList)
 for i in range(1,len(aList)):
