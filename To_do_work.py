@@ -27,7 +27,7 @@ def todo_list_app():
                     print(f"{index + 1}. {task}")
         elif choice == '3':
             if not tasks:
-                print("There are no tasks to remove.")
+                print("There Are NO task To Remove.")
             else:
                 print("\nYour Tasks:")
                 for index, task in enumerate(tasks):
