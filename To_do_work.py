@@ -44,7 +44,7 @@ def todo_list_app():
                     # Handle non-integer input
                     print("Invalid input. Please enter a number.")
         elif choice == '4':
-            print("Exiting application. Goodbye!")
+            print("Exiting application. Thank You!Goodbye!")
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")
